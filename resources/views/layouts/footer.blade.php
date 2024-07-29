@@ -12,7 +12,8 @@
                 </ul>
 
                 <div class="footer__socials">
-                    <a href="https://www.facebook.com/fahrudina'hmad/" target="_blank" class="footer__social">
+                    <a href="https://www.facebook.com/people/Fahrudin-Ahmad/pfbid02trwDXrnMhxCMN1ABXdXWR2QbkEajCAYbt87uDhgWyJfYEv9BqDR5LsUA5TaH8sJ8l/"
+                        target="_blank" class="footer__social">
                         <i class="uil uil-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com/fahrudinahmad20/" target="_blank" class="footer__social">

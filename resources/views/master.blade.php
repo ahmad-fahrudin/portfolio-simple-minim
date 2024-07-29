@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="{{ asset('packages/css/swiper-bundle.min.css') }}">
 
     <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="./packages/css/styles.css">
+    <link rel="stylesheet" href="{{ asset('packages/css/styles.css') }}">
 
     <!-- App favicon -->
     <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
@@ -35,12 +35,11 @@
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
-
     <!--==================== SWIPER JS ====================-->
-    <script src="./packages/js/swiper-bundle.min.js"></script>
+    <script src="{{ asset('packages/js/swiper-bundle.min.js') }}"></script>
 
     <!--==================== MAIN JS ====================-->
-    <script src="./packages/js/main.js"></script>
+    <script src="{{ asset('packages/js/main.js') }}"></script>
 </body>
 
 </html>

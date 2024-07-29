@@ -7,7 +7,8 @@
                     <a href="https://www.instagram.com/fahrudinahmad20/" target="_blank" class="home__social-icon">
                         <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com/fahrudina'hmad/" target="_blank" class="home__social-icon">
+                    <a href="https://www.facebook.com/people/Fahrudin-Ahmad/pfbid02trwDXrnMhxCMN1ABXdXWR2QbkEajCAYbt87uDhgWyJfYEv9BqDR5LsUA5TaH8sJ8l/"
+                        target="_blank" class="home__social-icon">
                         <i class="uil uil-facebook"></i>
                     </a>
                     <a href="https://github.com/ahmad-fahrudin" target="_blank" class="home__social-icon">
@@ -29,7 +30,7 @@
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                            <image class="home__blob-img" x="" xlink:href="image/1.jpg" />
+                            <image class="home__blob-img" x="" xlink:href="{{ asset('image/1.jpg') }}" />
                         </g>
                     </svg>
                 </div>
@@ -62,7 +63,7 @@
         <span class="section__subtitle">My Introduction</span>
 
         <div class="about__container container grid">
-            <img src="image/2.jpg" alt="" class="about__img">
+            <img src="{{ asset('image/2.jpg') }}" alt="" class="about__img">
             <div class="about__data">
                 <p class="about__description">
                     Fullstack Developer with extensive knowledge and years of experience in developing and
@@ -99,18 +100,17 @@
         <span class="section__subtitle">My technical level</span>
 
         <div class="skills__container container grid">
-
             <div>
-                <!--==================== SKILLS 3 ====================-->
                 <div class="skills__content skills__close">
                     <div class="skills__header">
                         <i class="uil uil-brackets-curly skills__icon"></i>
                         <div>
-                            <h1 class="skills__title">Full Stack Developer</h1>
+                            <h1 class="skills__title">Frontend Developer</h1>
                             <span class="skills__subtitle">More than 2 years</span>
                         </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
                     </div>
-                    <div class=" grid">
+                    <div class="skills__list grid">
                         <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name">HTML</h3>
@@ -140,15 +140,6 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__titles">
-                                <h3 class="skills__name">PHP</h3>
-                                <span class="skills__number">70%</span>
-                            </div>
-                            <div class="skills__bar">
-                                <span class="skills__percentage skills__wordpress"></span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__titles">
                                 <h3 class="skills__name">Java Script</h3>
                                 <span class="skills__number">70%</span>
                             </div>
@@ -158,7 +149,7 @@
                         </div>
                         <div class="skills__data">
                             <div class="skills__titles">
-                                <h3 class="skills__name">Laravel</h3>
+                                <h3 class="skills__name">Laravel Blade Engine</h3>
                                 <span class="skills__number">80%</span>
                             </div>
                             <div class="skills__bar">
@@ -172,6 +163,36 @@
                             </div>
                             <div class="skills__bar">
                                 <span class="skills__percentage skills__jquery"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-money-bill skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Backend Developer</h1>
+                            <span class="skills__subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">PHP</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__wordpress"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Laravel</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__laravel"></span>
                             </div>
                         </div>
                         <div class="skills__data">
@@ -192,6 +213,29 @@
                                 <span class="skills__percentage skills__sql"></span>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-analytics skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Lain-lain</h1>
+                            <span class="skills__subtitle">More than 2 years</span>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MVC Pattern</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__git"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__list grid">
                         <div class="skills__data">
                             <div class="skills__titles">
                                 <h3 class="skills__name">Git/GitHub</h3>
@@ -214,12 +258,12 @@
 
         <div class="qualification__container container">
             <div class="qualification__tabs">
-                <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                <div class="qualification__button button--flex" data-target='#education'>
                     <i class="uil uil-graduation-cap qualification__icon"></i>
                     Education
                 </div>
 
-                <div class="qualification__button button--flex" data-target="#work">
+                <div class="qualification__button button--flex qualification__active" data-target="#work">
                     <i class="uil uil-briefcase-alt qualification__icon"></i>
                     Work
                 </div>
@@ -227,7 +271,7 @@
 
             <div class="qualification__sections">
                 <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                <div class="qualification__content qualification__active" data-content id="education">
+                <div class="qualification__content" data-content id="education">
                     <!--==================== QUALIFICATION 1 ====================-->
                     <div class="qualification__data">
                         <div>
@@ -270,7 +314,7 @@
                             <span class="qualification__subtitle">UDEMY</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                2019 - 2021
+                                2020 - Sekarang
                             </div>
                         </div>
 
@@ -281,7 +325,7 @@
                 </div>
 
                 <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                <div class="qualification__content" data-content id="work">
+                <div class="qualification__content qualification__active" data-content id="work">
                     <!--==================== QUALIFICATION 1 ====================-->
                     <div class="qualification__data">
                         <div>
@@ -289,7 +333,7 @@
                             <span class="qualification__subtitle">Full Stack & Backend Developer</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
-                                1 Mei 2021 - 31 Agustus 2023
+                                1 Mei 2021 - 31 Mei 2023
                             </div>
                         </div>
 
@@ -307,7 +351,7 @@
                         </div>
 
                         <div>
-                            <h3 class="qualification__title">CV. IAN STUDIOS</h3>
+                            <h3 class="qualification__title">IAN STUDIOS</h3>
                             <span class="qualification__subtitle">Remote Full Stack Developer</span>
                             <div class="qualification__calendar">
                                 <i class="uil uil-calendar-alt"></i>
@@ -329,39 +373,67 @@
 
         <div class="portfolio__container container swiper-container">
             <div class="swiper-wrapper">
-                <!--==================== PORTFOLIO 1 ====================-->
 
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="image/wedding.png" alt="" class="portfolio__img">
+                    <img src="{{ asset('image/pos.png') }}" alt="" class="portfolio__img">
 
                     <div class="portfolio_">
+                        <h3 class="portfolio__title">Point Of Sale Application</h3>
+                        <p class="portfolio__description">"Compatible with various POS hardware such as receipt
+                            printers, barcode scanners and cash drawers."</p>
+                    </div>
+                </div>
+                <!--==================== PORTFOLIO 3 ====================-->
+
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="{{ asset('image/booking.png') }}" alt="" class="portfolio__img">
+
+                    <div class="portfolio_">
+                        <h3 class="portfolio__title">Booking Hotel Application</h3>
+                        <p class="portfolio__description">"Find hotels according to your preferences with advanced and
+                            accurate search filters."</p>
+                    </div>
+                </div>
+                <!--==================== PORTFOLIO 3 ====================-->
+
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="{{ asset('image/school.jpg') }}" alt="" class="portfolio__img">
+
+                    <div class="portfolio_">
+                        <h3 class="portfolio__title">School Application</h3>
+                        <p class="portfolio__description">"school management and online SPP payments"</p>
+                    </div>
+                </div>
+                <div class="portfolio__content grid swiper-slide">
+                    <img src="{{ asset('image/wedding.png') }}" alt="" class="portfolio__img">
+                    <div class="portfolio_">
                         <h3 class="portfolio__title">Wedding Invitation</h3>
-                        <p class="portfolio__description">"Create beautiful memories with impressive digital wedding
-                            invitations. Find the details on our website and start the journey to your big day!"</p>
+                        <p class="portfolio__description">"Every wedding invitation we create is designed with love and
+                            attention to detail. From classic to modern styles, we are committed to presenting a design
+                            that suits your personality and wedding theme."</p>
                     </div>
                 </div>
 
                 <!--==================== PORTFOLIO 2 ====================-->
 
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="./packages/images/portfolio3.PNG" alt="" class="portfolio__img">
+                    <img src="{{ asset('image/ecommerce.png') }}" alt="" class="portfolio__img">
 
                     <div class="portfolio_">
-                        <h3 class="portfolio__title">E-Commerce website</h3>
-                        <p class="portfolio__description">"Create an extraordinary shopping experience for your
-                            customers with our modern and trusted e-commerce website."</p>
+                        <h3 class="portfolio__title">E-Commerce Application</h3>
+                        <p class="portfolio__description">"Powerful search features with customizable filters help
+                            users find products quickly and easily."</p>
                     </div>
                 </div>
-
-                <!--==================== PORTFOLIO 3 ====================-->
+                <!--==================== PORTFOLIO 2 ====================-->
 
                 <div class="portfolio__content grid swiper-slide">
-                    <img src="./packages/images/portfolio1.jpg" alt="" class="portfolio__img">
+                    <img src="{{ asset('image/online-shop') }}.png" alt="" class="portfolio__img">
 
                     <div class="portfolio_">
-                        <h3 class="portfolio__title">Point Of Sale Website</h3>
-                        <p class="portfolio__description">"Immediately improve your operational efficiency with our
-                            customizable Point Of Sale services."</p>
+                        <h3 class="portfolio__title">Online Shop Application</h3>
+                        <p class="portfolio__description">"Responsive and easy-to-use design, ensuring a pleasant
+                            shopping experience across devices."</p>
                     </div>
                 </div>
             </div>
@@ -438,19 +510,16 @@
                 </div>
             </div>
 
-            <form action="{{ route('send.message') }}" method="POST" class="contact__form grid">
-                @csrf
+            <form action="" method="POST" class="contact__form grid">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label for="name" class="contact__label ">Name</label>
-                        <input type="text" class="contact__input @error('name') is-invalid @enderror"
-                            name="name">
+                        <input type="text" class="contact__input" name="name">
                     </div>
 
                     <div class="contact__content">
                         <label for="" class="contact__label">E-mail</label>
-                        <input type="email" class="contact__input @error('email') is-invalid @enderror"
-                            name="email">
+                        <input type="email" class="contact__input" name="email">
                     </div>
                 </div>
 

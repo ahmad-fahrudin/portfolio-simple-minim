@@ -9,5 +9,4 @@ Route::get('/', function () {
 
 Route::controller(PortfolioController::class)->group(function () {
     Route::get('/download/resume', 'DownloadResume')->name('download.resume');
-    Route::post('/send/message', 'SendMessage')->name('send.message');
 });
